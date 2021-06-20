@@ -1,0 +1,58 @@
+.TodoList {
+  border: 1px solid black;
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  left: 32%;
+  width: 500px;
+}
+
+.TodoList .header {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #4d4d4d;
+  border-bottom: 1px solid #888;
+  padding: 15px;
+  display: flex;
+}
+
+.TodoList .header input {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0 0 0 20px;
+  width: 100%;
+  border: none;
+}
+
+.TodoList .header input:focus {
+  outline: none;
+}
+
+.header input::placeholder {
+  opacity: .2;
+  font-style: oblique;
+}
+
+.TodoList .footer {
+  margin: 10px;
+}
+
+.TodoList .footer .button-filter {
+  background-color: white;  
+  border: 1px solid white;
+  padding: 3px 8px;
+  margin: 0 8px;
+  
+}
+
+.TodoList .footer .button-filter:hover {
+  border: 1px solid rgba(175, 47, 47, 0.2);
+  border-radius: 10%;
+}
+
+.TodoList .footer .button-filter:focus {
+  border: 1px solid rgba(175, 47, 47, 0.2);
+  border-radius: 10%;
+}
